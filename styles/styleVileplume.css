@@ -1,0 +1,96 @@
+.headerSection {
+    background-color: green;
+    height: 14vh;
+}
+
+.titleNav {
+    background-color: rgb(15, 226, 15);
+    vertical-align: middle;
+    line-height: 7vh;
+}
+
+.headerPart {
+    height: 7vh;
+    text-align: center;
+}
+
+.navBar {
+    line-height: 7vh;
+}
+
+.navOptions {
+    vertical-align: middle;
+    margin-left: 2vw;
+    color: white;
+}
+
+.navOptions:hover {
+    padding: 0.5%;
+    transition-property: background-color;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    min-height: 86vh;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    height: 224px;
+    width: 224px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    border: solid green 2px;
+}
+
+.card img {
+    float: left;
+}
+
+.card:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+    height: 250px;
+    width: 600px;
+}
+
+.card:hover .contentCard {
+    display: block;
+}
+
+.contentCard {
+    display: none;
+}
+
+.description {
+    margin: 3% 5%;
+    text-align: left;
+}
+
+.col1,
+.col2 {
+    margin: 5%;
+    text-align: center;
+}
+
+.col1 {
+    float: left;
+}
+
+.col2 {
+    float: right;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subTitle {
+    font-weight: lighter;
+}
