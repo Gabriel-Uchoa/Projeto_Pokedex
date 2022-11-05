@@ -1,37 +1,69 @@
+/* HEADER*/
 .headerSection {
-    background-color: green;
-    height: 14vh;
+    background-color: rgb(219, 219, 28);
+    min-width: 14vh;
 }
 
-.titleNav {
-    background-color: rgb(15, 226, 15);
-    vertical-align: middle;
-    line-height: 7vh;
-}
-
-.headerPart {
-    height: 7vh;
-    text-align: center;
+.logo{
+    margin: 25px 20px;
 }
 
 .navBar {
+    width: 100%;
+    overflow: auto;
+}
+
+.link {
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+    margin: 15px 20px;
+}
+.link img {
+    vertical-align: middle;
+}
+
+
+.navBar .link:hover {
+    background-color: rgb(163, 163, 61);
+    color: black;
+}
+
+.navBar-right {
+    margin: 15px 20px;
+    float: right;
+}
+
+/* navPage*/
+
+.navPage {
+    background-color: rgb(15, 226, 15);
+    text-align: center;
+    vertical-align: middle;
     line-height: 7vh;
 }
 
 .navOptions {
-    vertical-align: middle;
+    padding: 0.5%;
     margin-left: 2vw;
     color: white;
 }
 
+.navOptions img {
+    vertical-align: middle;
+}
 .navOptions:hover {
-    padding: 0.5%;
     transition-property: background-color;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Content*/
+
 .content {
-    min-height: 86vh;
+    min-height: 78vh;
     background-color: #ededed;
     text-align: center;
     padding-top: 30px;
