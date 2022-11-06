@@ -37,10 +37,14 @@ img {
 .background {
   background-color: #cf9bcc;
   height: 100vh;
+  background-image: url("../imagem/CrownTundra.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 2330px 900px;
 }
 
 .navegationbar {
-  background-color: #fff200;
+  background-color:#fff200;
 }
 
 .logo {
@@ -49,7 +53,7 @@ img {
 }
 
 .home {
-  margin-left: 180vh;
+  margin-left: 165vh;
 }
 
 .pokedex {
@@ -62,35 +66,77 @@ img {
 }
 
 .navegationpoke {
-  background-color: #dd5035;
+  background-color: #e06b69
+  ;
   height: 6vh;
 }
 
+.backPokemon{
+  margin-left: 102vh;
+  float: left;
+  margin-top: 2vh;
+  color: black;
+}
+
+.currentPokemon, .nextPokemon{
+  float: left;
+  margin-left: 14vh;
+  margin-top: 2vh;
+
+}
+.link1{
+  color: black
+}
+
+/* */
+.interaction {
+  min-height: 78vh;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.primarytitle{
+  color:rgba(0, 3, 2, 1.2);
+}
+
 .sourcepokemon {
-  margin-left: 107vh;
-  width: 769px;
-  height: 1px;
-  margin-left: 41vw;
-  margin-right: 9.5vw;
-
+  background-color:#fff200;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: rgb(236, 3, 3) 1px 29px 100px;
+  border: outset #e06b69  10px;
+  border-radius: 20%;
 }
 
-.textojynx {
-  width: 300px;
+.sourcepokemon img {
+  float: left;
+}
+
+.sourcepokemon:hover {
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 4);
+  height: 250px;
+  width: 600px;
+}
+.atributes1,.atributes2 {
+  margin: 5%;
+}
+
+.atributes1 {
+  float: left;
+}
+
+.atributes2 {
   float: right;
-  background-color: #cf9bcc;
-  margin-right: 66vh;
-  margin-top: 15vh;
-  transition: width 2s, height 0s, transform 2s;
-  color:#cf9bcc;
 }
 
-.textojynx:hover {
-  width: 300px;
-  height: 300px;
-  background-color: #dd5035;
-  transform: rotate(360deg);
-  margin-right: 66vh;
-  margin-top: 13vh;
-  color:black;
+.graficstas1{
+  border-radius: 7%;
+}
+
+.Copyright{
+  margin-top: 70px;
 }
