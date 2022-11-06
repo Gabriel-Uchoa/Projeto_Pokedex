@@ -33,6 +33,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+/**/
 
 .background {
   background-color: #cf9bcc;
@@ -66,8 +67,7 @@ img {
 }
 
 .navegationpoke {
-  background-color: #e06b69
-  ;
+  background-color: #e06b69;
   height: 6vh;
 }
 
