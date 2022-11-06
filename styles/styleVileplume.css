@@ -1,0 +1,201 @@
+/* HEADER*/
+.headerSection {
+    background-color: rgb(219, 219, 28);
+    min-height: 14vh;
+}
+
+.logo {
+    margin: 15px 20px;
+}
+
+.navBar {
+    width: 100%;
+    overflow: auto;
+}
+
+.link {
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.link img {
+    vertical-align: middle;
+}
+
+
+.navBar .link:hover {
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(163, 163, 61);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+
+.navBar-right {
+    margin: 15px 20px;
+    float: right;
+}
+
+/* navPage*/
+
+.navPage {
+    background-color: rgb(15, 226, 15);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+}
+
+.navOptions {
+    padding: 0.5%;
+    margin-left: 2vw;
+    color: white;
+}
+
+.navOptions img {
+    vertical-align: middle;
+}
+
+.navOptions:hover {
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+
+/* Content*/
+
+.content {
+    min-height: 78vh;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    height: 34vh;
+    width: 18vw;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid green 2px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.card img {
+    float: left;
+}
+
+.card:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    height: 40vh;
+    width: 40vw;
+}
+
+.card:hover .contentCard {
+    display: block;
+}
+
+.contentCard {
+    display: none;
+}
+
+.description {
+    margin: 3% 3%;
+    text-align: left;
+}
+
+.col1,
+.col2 {
+    margin-right: 10%;
+    text-align: center;
+}
+
+.col1 {
+    float: left;
+}
+
+.col2 {
+    float: right;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subTitle {
+    font-weight: lighter;
+}
+
+
+/*Grafico 
+    Referencia: http://embuscadocodigo.com/codigos/html/grafico-de-barras-com-html-e-css.html
+*/
+.base_graf_Em_Busca {
+    text-align: center;
+    margin: 1% auto;
+    width: 50vw;
+    background-color: rgb(37, 197, 37);
+}
+
+.Busca_nome {
+    width: 15%;
+    height: 20px;
+    float: left;
+    border-right: solid #ededed;
+}
+
+.Busca_valor {
+    width: 85%;
+    height: 20px;
+    float: right;
+}
+
+.Busca_nome_centralizado {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.insert_busca_width {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 14px;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.statusHp {
+    background-color: rgb(243, 42, 42);
+}
+
+.statusAtk {
+    background-color: rgb(243, 189, 42);
+}
+
+.statusDef {
+    background-color: rgb(210, 245, 11);
+}
+
+.statusSpAtk {
+    background-color: rgb(42, 54, 230);
+}
+
+.statusSpDef {
+    background-color: rgb(65, 243, 42);
+}
+
+.statusSpeed {
+    background-color: rgb(243, 42, 183);
+}
