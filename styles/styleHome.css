@@ -45,7 +45,6 @@
     padding: 1%;
     border-radius: 10px;
     color: black;
-    border: solid white 2px;
-    background-color: rgb(163, 163, 61);
+    background-color: #585465;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
