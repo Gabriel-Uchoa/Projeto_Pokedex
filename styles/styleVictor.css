@@ -53,17 +53,13 @@ img {
   margin-left: 3vh;
 }
 
-.home {
-  margin-left: 165vh;
+.home{
+  margin-right: 10vh;
 }
 
-.pokedex {
-  margin-left: 07vh;
-}
-
-.cadastro {
-  margin-left: 07vh;
-  height: 5vh;
+.home, .pokedex, .cadastro {
+  float: right;
+  margin-top: 1.5vh;
 }
 
 .navegationpoke {
