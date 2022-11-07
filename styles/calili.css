@@ -1,0 +1,62 @@
+img {
+    max-width: 25%;
+    height:224px;
+    background:linear-gradient(45deg, yellow, red, orange);
+    float: left;
+}
+
+.background{
+    background:linear-gradient(45deg, yellow, red, orange);
+    height: 100%;
+    position: absolute;
+   width: 100%;
+}       
+
+
+.navegacao{
+   text-align: right;
+    height: 6vh;
+    background-color: blue;
+
+}
+
+.opcaoNavegacao{
+    margin-right:10px;
+   float: right;
+}
+
+
+.barraDeBaixo{
+    height: 6vh;
+    background-color: pink;
+    
+ }
+    
+ .barraDeBaixo1{
+    margin-left:100vh ;
+    float: left;
+ }
+
+ .Informacoes{
+    height:224px ;
+    width: 224px;
+    overflow:hidden;
+    background-color: rgb(87, 87, 211);
+    margin: 50px auto; 
+
+    
+ }
+
+ .Informacoes:hover{
+    width: 500px; 
+    transition-duration: 0.5s;
+transition-timing-function: linear;
+ }
+
+ .Grafico{
+   height: 300px ;
+    width: 300px;
+    overflow:hidden;
+    margin: 0px auto ;
+
+ }

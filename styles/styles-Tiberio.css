@@ -1,0 +1,151 @@
+.cabecalho 
+{
+    background-color: rgb(73, 250, 53);
+    height: 14vh;
+}
+
+.logo
+{
+    margin: 25px 20px;
+}
+
+.navegacao 
+{
+    line-height: 7vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.link 
+{
+    float: left;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+    margin: 15px 20px;
+}
+.link img 
+{
+    vertical-align: middle;
+}
+
+
+.navegacao .link:hover 
+{
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navegacao-right 
+{
+    margin: 15px 20px;
+    float: right;
+}
+
+.navegaPagina 
+{
+    background-color: rgb(15, 226, 15);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+}
+
+.navegaOpcoes 
+{
+    padding: 0.5%;
+    margin-left: 60vh;
+    color: white;
+}
+
+.navegaOpcoes img 
+{
+    vertical-align: middle;
+}
+.navegaOpcoes:hover 
+{
+    transition-property: background-color;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.conteudo 
+{
+    min-height: 78vh;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foto 
+{
+    background-color: gold;
+    height: 224px;
+    width: 224px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    border: solid green 2px;
+    border-radius: 2vw;
+}
+
+.foto img 
+{
+    float: left;
+}
+
+.foto:hover 
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+    height: 250px;
+    width: 600px;
+}
+
+.foto:hover .conteudoFoto 
+{
+    display: block;
+}
+
+.conteudoFoto 
+{
+    display: none;
+}
+
+.descricao 
+{
+    margin: 3% 5%;
+    text-align: left;
+}
+
+.tab1, .tab2 
+{
+    margin: 5%;
+    text-align: center;
+}
+
+.tab1 
+{
+    float: left;
+}
+
+.tab2 
+{
+    float: right;
+}
+
+.titulo 
+{
+    font-weight: bold;
+}
+
+.legenda
+{
+    font-weight: lighter;
+}
+.tabela
+{
+    text-align: center;
+}
