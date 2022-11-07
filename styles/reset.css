@@ -21,3 +21,18 @@ html {
 	max-width: 100%;
 	height: auto;
   }
+
+  /* </html>
+<div class="card">
+    <a href="./pages/pokemons/vileplume.html">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png" width="224" height="224">
+        <div class="description">
+            <div class="idPokemonHome">
+                Nº 045
+            </div>
+            <div class="titlePokemonHome">
+                <h2>Vileplume</h2>
+            </div>
+        </div>
+    </a>
+</div>

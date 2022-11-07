@@ -1,9 +1,40 @@
-.content {
-    text-align: center;
-    max-width: 80vw;
-    margin: 30px auto;
+.content{
+    background-color: #2E2E2E;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.barra1{
+    background-color: #d33f59;
+    height: 8vh;
+}
+.logoPk{
+    margin-top: 7px;
+    margin-left: 9vh;
+    float: left;
 }
 
+.home, .pokedex, .cadastro{
+    margin-left: 12px;
+    margin-top: 11px;
+}
+.home{
+    margin-left: 176vh;
+}
+
+.pokemonHome{
+    width: 2000px;
+    display: inline-block;
+}
+.imgpoke1{
+    margin-left: 30vh
+}
+
+.imgpoke1, .imgpoke2, .imgpoke3, .imgpoke4{
+    margin-right: -200px;
+}
+
+/**/
 .card {
     width: 18vw;
     height: 224px;
