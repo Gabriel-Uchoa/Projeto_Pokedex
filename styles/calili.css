@@ -42,11 +42,21 @@ img {
     width: 224px;
     overflow:hidden;
     background-color: rgb(87, 87, 211);
-    margin:150px auto ;
+    margin: 50px auto; 
 
     
  }
 
  .Informacoes:hover{
     width: 500px; 
+    transition-duration: 0.5s;
+transition-timing-function: linear;
+ }
+
+ .Grafico{
+   height: 300px ;
+    width: 300px;
+    overflow:hidden;
+    margin: 0px auto ;
+
  }
