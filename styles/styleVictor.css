@@ -50,19 +50,19 @@ img {
 
 .logo {
   margin-top: 0.8vh;
-  margin-left: 3vh;
+  float: left;
 }
 
 .home {
-  margin-left: 165vh;
+  float:right;
 }
 
 .pokedex {
-  margin-left: 07vh;
+  float:right;
 }
 
 .cadastro {
-  margin-left: 07vh;
+  float:righth;
   height: 5vh;
 }
 
