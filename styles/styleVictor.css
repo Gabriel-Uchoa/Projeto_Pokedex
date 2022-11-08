@@ -32,6 +32,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  
 }
 /**/
 
@@ -41,7 +42,7 @@ img {
   background-image: url("../imagem/CrownTundra.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 2330px 900px;
+  background-size: 2560px 1080px;
 }
 
 .navegationbar {
@@ -51,6 +52,7 @@ img {
 .logo {
   margin-top: 0.8vh;
   margin-left: 3vh;
+  
 }
 
 .home{
@@ -70,15 +72,15 @@ img {
 .backPokemon{
   margin-left: 102vh;
   float: left;
-  margin-top: 2vh;
   color: black;
+  margin-top: 2vh;
 }
 
 .currentPokemon, .nextPokemon{
   float: left;
   margin-left: 14vh;
+  color: black;
   margin-top: 2vh;
-
 }
 .link1{
   color: black
@@ -134,5 +136,5 @@ img {
 }
 
 .Copyright{
-  margin-top: 70px;
+  margin-top: 161px;
 }
