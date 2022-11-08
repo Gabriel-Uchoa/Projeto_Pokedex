@@ -22,8 +22,9 @@
 
 .content {
     background-color: #2E2E2E;
+    padding: 30px;
     text-align: center;
-    height: 88vh;
+    min-height: 88vh;
     width: 100%;
 }
 
